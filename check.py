@@ -1,7 +1,8 @@
 import undetected_chromedriver as uc
 import json
 import time
-import sys
+import csv
+import os
 
 
 # item = {
@@ -22,9 +23,29 @@ import sys
 #         "raw_address": "Missing"
 # }
 
-def get_stores_reliably():
+def get_kiehls_stores():
     options = uc.ChromeOptions()
     driver = uc.Chrome(options=options, version_main=145)
+
+    # JSON AND CSV FILE 
+    json_file = "kiehls_stores.json"
+    csv_file = "kiehls_stores.csv"
+
+    # CSV Header
+    fieldnames = [
+        "page_url", "location_name", "street_address", "city", "state", "zip", 
+        "country_code", "store_number", "phone", "location_type", "latitude", 
+        "longitude", "locator_domain", "hours_of_operation", "raw_address"
+    ]
+
+    if not os.path.exists(csv_file):
+        with open(csv_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+
+    
+    all_store_id = set()
+    all_data_for_json = []
     
     try:
 
@@ -58,29 +79,37 @@ def get_stores_reliably():
             data = json.loads(raw_data)
             #  print("Raw data", data)
             stores = data.get("storelocatorresults", {}).get("stores", [])
-            # print(" Length", len(stores))
+            print(" Length", len(stores))
 
             for store in stores:
-                data = {
-                    "page_url": "https://www.kiehls.pl/sklepy",
-                    "location_name": store["name"] or "Missing",
-                    "street_address": store["address1"] or "Missing",
-                    "city": store["city"] or "Missing",
-                    "state": store["stateCode"] or "Missing",
-                    "zip": store["postalCode"] or "Missing",
-                    "country_code": store["countryCode"] or "Missing",
-                    # "store_number": str[sid],
-                    "store_number": "Missing",
-                    "phone": store["phone"] or "Missing",
-                    "location_type": "Missing",
-                    "latitude": str(store["latitude"]) if store["latitude"] else "Missing",
-                    "longitude": str(store["longitude"]) if store["longitude"] else "Missing",
-                    "locator_domain": "kiehls.pl",
-                    "hours_of_operation": store["hours"] or "Missing",
-                    "raw_address": f"{store['address1']}, {store['city']}" if store["address1"] else "Missing",
-                }
+                store_id = store["id"]
+                if store_id not in all_store_id:
+                    all_store_id.add(store_id)
+                    data = {
+                        "page_url": "https://www.kiehls.pl/sklepy",
+                        "location_name": store["name"] or "Missing",
+                        "street_address": store["address1"] or "Missing",
+                        "city": store["city"] or "Missing",
+                        "state": store["stateCode"] or "Missing",
+                        "zip": store["postalCode"] or "Missing",
+                        "country_code": store["countryCode"] or "Missing",
+                        # "store_number": str[sid],
+                        "store_number": "Missing",
+                        "phone": store["phone"] or "Missing",
+                        "location_type": "Missing",
+                        "latitude": str(store["latitude"]) if store["latitude"] else "Missing",
+                        "longitude": str(store["longitude"]) if store["longitude"] else "Missing",
+                        "locator_domain": "kiehls.pl",
+                        "hours_of_operation": store["hours"] or "Missing",
+                        "raw_address": f"{store['address1']}, {store['city']}" if store["address1"] else "Missing",
+                        }
+                    with open(csv_file, 'a', newline='', encoding='utf-8') as f:
+                        writer = csv.DictWriter(f, fieldnames=fieldnames)
+                        writer.writerow(data)
+                    all_data_for_json.append(data)
+                    print(f"   ✅ Saved New Store: {data['location_name']}")
 
-                print("Store details", data)
+                    # print("Store details", data)
                 # name = store["name"]
                 # city = store["city"]
                 # latitude = store["latitude"]
@@ -100,10 +129,18 @@ def get_stores_reliably():
             #     print(f"   📍 Address: {address}, {city}")
             #     print(f"   📞 Phone:   {phone}")
             #     print("-" * 30)
+        
+        # Final JSON save
+        with open(json_file, 'w', encoding='utf-8') as f:
+            json.dump(all_data_for_json, f, ensure_ascii=False, indent=4)
+            
+        print("\n" + "="*30)
+        print(f"🏁 FINISHED. Total Unique Stores: {len(all_data_for_json)}")
+        print("="*30)
             
         
     finally:
         driver.quit()
 
 if __name__ == "__main__":
-    get_stores_reliably()
+    get_kiehls_stores()

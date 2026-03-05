@@ -1,0 +1,14 @@
+page_url,location_name,street_address,city,state,zip,country_code,store_number,phone,location_type,latitude,longitude,locator_domain,hours_of_operation,raw_address
+https://www.kiehls.pl/sklepy,Kiehl's Złote Tarasy,Złota 59,Warszawa,Mazowieckie,00-120,PL,Missing,+48 510 998 357,Missing,52.230227,21.002677,kiehls.pl,"Pon - sob: 9:00 - 22:00
+niedz.: 9:00 - 21:00","Złota 59, Warszawa"
+https://www.kiehls.pl/sklepy,Kiehl's Arkadia,Al. Jana Pawła II 82,Warszawa,Mazowieckie,00-175,PL,Missing,+48 22 351 95 67,Missing,52.257227,20.984565,kiehls.pl,"pon.-sob.: 10:00 - 22:00
+niedz.: 10:00 - 21:00","Al. Jana Pawła II 82, Warszawa"
+https://www.kiehls.pl/sklepy,Kiehl's Galeria Mokotów,Wołoska 12,Warszawa,Mazowieckie,02-675,PL,Missing,+48 22 161 33 22,Missing,52.179859,21.004022,kiehls.pl,"pon.-sob.: 10:00 - 22:00
+niedz.: 10:00 - 21:00","Wołoska 12, Warszawa"
+https://www.kiehls.pl/sklepy,Kiehl's Galeria Krakowska,Pawia 5,Kraków,Małopolskie,31-154,PL,Missing,+48 510 998 356,Missing,50.067835,19.946466,kiehls.pl,"Pon - sob: 9:00 - 22:00
+niedz.: 10:00 - 21:00","Pawia 5, Kraków"
+https://www.kiehls.pl/sklepy,Kiehl's Bonarka,Kamieńskiego 11,Kraków,Małopolskie,30-644,PL,Missing,+48 510 998 358,Missing,50.147857,19.918051,kiehls.pl,"Pon - sob: 10:00 - 21:00
+niedz.: 10:00 - 21:00","Kamieńskiego 11, Kraków"
+https://www.kiehls.pl/sklepy,Douglas Wroclavia,Sucha 1,Wrocław,Dolnośląskie,50-086,PL,Missing,Missing,Missing,51.097451,17.034024,kiehls.pl,Missing,"Sucha 1, Wrocław"
+https://www.kiehls.pl/sklepy,Douglas Forum Gdańsk,Targ Sienny 7,Gdańsk,Pomorskie,80-806,PL,Missing,Missing,Missing,54.350094,18.642208,kiehls.pl,Missing,"Targ Sienny 7, Gdańsk"
+https://www.kiehls.pl/sklepy,Douglas Kaskada,Aleja Niepodległości 36,Szczecin,Zachodniopomorskie,70-404,PL,Missing,Missing,Missing,53.427555,14.551368,kiehls.pl,Missing,"Aleja Niepodległości 36, Szczecin"
