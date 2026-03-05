@@ -1,0 +1,36 @@
+[
+    {
+        "page_url": "https://www.kiehls.bg/%D0%BF%D0%BE%D1%82%D1%8A%D1%80%D1%81%D0%B5%D1%82%D0%B5-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD?lat=42.6977&long=23.3219",
+        "location_name": "Kiehl's Сердика център",
+        "street_address": "Kiehl's Сердика център",
+        "city": "Sofia",
+        "state": "Missing",
+        "zip": "1505",
+        "country_code": "Missing",
+        "store_number": "Missing",
+        "phone": "Missing",
+        "location_type": "Missing",
+        "latitude": "42.691781",
+        "longitude": "23.353176",
+        "locator_domain": "kiehls.bg",
+        "hours_of_operation": "Missing",
+        "raw_address": "Kiehl's Сердика център, Sofia"
+    },
+    {
+        "page_url": "https://www.kiehls.bg/%D0%BF%D0%BE%D1%82%D1%8A%D1%80%D1%81%D0%B5%D1%82%D0%B5-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD?lat=42.6977&long=23.3219",
+        "location_name": "Kiehl's Парадайс център",
+        "street_address": "Kiehl's Парадайс център",
+        "city": "Missing",
+        "state": "Missing",
+        "zip": "Missing",
+        "country_code": "BG",
+        "store_number": "Missing",
+        "phone": "Missing",
+        "location_type": "Missing",
+        "latitude": "42.657",
+        "longitude": "23.314",
+        "locator_domain": "kiehls.bg",
+        "hours_of_operation": "Missing",
+        "raw_address": "Kiehl's Парадайс център, "
+    }
+]

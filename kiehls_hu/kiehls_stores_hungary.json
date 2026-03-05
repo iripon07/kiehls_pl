@@ -1,0 +1,36 @@
+[
+    {
+        "page_url": "https://www.kiehls.hu/%C3%BCzletek?lat=47.4979&long=19.0402",
+        "location_name": "Kiehl's WestEnd City Center",
+        "street_address": "Váci út 3",
+        "city": "Budapest",
+        "state": "Missing",
+        "zip": "1062",
+        "country_code": "HU",
+        "store_number": "Missing",
+        "phone": "+3612360222",
+        "location_type": "Missing",
+        "latitude": "47.513977",
+        "longitude": "19.059215",
+        "locator_domain": "kiehls.hu",
+        "hours_of_operation": "Missing",
+        "raw_address": "Váci út 3, Budapest"
+    },
+    {
+        "page_url": "https://www.kiehls.hu/%C3%BCzletek?lat=47.4979&long=19.0402",
+        "location_name": "Kiehl's Allee Bevásárlóközpont",
+        "street_address": "ZÁRVA",
+        "city": "Budapest",
+        "state": "Missing",
+        "zip": "1117",
+        "country_code": "Missing",
+        "store_number": "Missing",
+        "phone": "Missing",
+        "location_type": "Missing",
+        "latitude": "47.475255",
+        "longitude": "19.049206",
+        "locator_domain": "kiehls.hu",
+        "hours_of_operation": "Missing",
+        "raw_address": "ZÁRVA, Budapest"
+    }
+]

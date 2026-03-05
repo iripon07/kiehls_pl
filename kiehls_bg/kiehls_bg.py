@@ -10,8 +10,8 @@ def get_kiehls_stores():
     driver = uc.Chrome(options=options, version_main=145)
 
     # JSON AND CSV FILE
-    json_file = "kiehls_hr/kiehls_stores_croatia.json"
-    csv_file = "kiehls_hr/kiehls_stores_croatia.csv"
+    json_file = "kiehls_bg/kiehls_stores_bulgaria.json"
+    csv_file = "kiehls_bg/kiehls_stores_bulgaria.csv"
 
     # CSV Header
     fieldnames = [
@@ -42,27 +42,23 @@ def get_kiehls_stores():
 
     try:
 
-        # croatia Cities Longitude and Latitude
-        croatia_cities = [
-            {"lat": 45.8150, "lon": 15.9819},
-            {"lat": 43.5100, "lon": 16.4400},
-            {"lat": 45.3272, "lon": 14.4422},
-            {"lat": 45.5556, "lon": 18.6956},
-            {"lat": 42.6500, "lon": 18.0944},
+        # bulgaria Cities Longitude and Latitude
+        bulgaria_cities = [
+            {"lat": 42.6977, "lng": 23.3219},
+            {"lat": 42.1354, "lng": 24.7453},
+            {"lat": 43.2141, "lng": 27.9147},
+            {"lat": 42.5048, "lng": 27.4626},
+            {"lat": 43.8356, "lng": 25.9656},
+            {"lat": 42.4258, "lng": 25.6338},
         ]
 
-        for croatia_city in croatia_cities:
-            croatia_city_url = f"https://www.kiehls.hr/on/demandware.store/Sites-kiehls-emea-east-ng-Site/hr_HR/Stores-Search?lat={croatia_city['lat']}&long={croatia_city['lon']}&radius=10000&ajax=true"
-            # croatia_city_url = f"https://www.kiehls.hr/on/demandware.store/Sites-kiehls-emea-east-ng-Site/hr_HR/Stores-Search?lat=45.2741107&long=14.5688542&radius=10000&ajax=true"
-            #  print("City", croatia_city_url)
-            city_url = f"https://www.kiehls.hr/pronadite-prodavaonicu?lat={croatia_city['lat']}&long={croatia_city['lon']}"
-            driver.get(croatia_city_url)
+        for bulgaria_city in bulgaria_cities:
+            bulgaria_city_url = f"https://www.kiehls.bg/on/demandware.store/Sites-kiehls-emea-east-ng-Site/bg_BG/Stores-Search?lat={bulgaria_city['lat']}&long={bulgaria_city['lng']}&radius=10000&ajax=true"
+            city_url = f"https://www.kiehls.bg/%D0%BF%D0%BE%D1%82%D1%8A%D1%80%D1%81%D0%B5%D1%82%D0%B5-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD?lat={bulgaria_city['lat']}&long={bulgaria_city['lng']}"
+            driver.get(bulgaria_city_url)
             time.sleep(30)
-            #  print(driver, "ddd")
             raw_data = driver.find_element("tag name", "body").text
-            #  print("Raw data", raw_data)
             data = json.loads(raw_data)
-            #  print("Raw data", data)
             stores = data.get("storelocatorresults", {}).get("stores", [])
             print(" Length", len(stores))
 
@@ -88,7 +84,7 @@ def get_kiehls_stores():
                         "longitude": (
                             str(store["longitude"]) if store["longitude"] else "Missing"
                         ),
-                        "locator_domain": "kiehls.hr",
+                        "locator_domain": "kiehls.bg",
                         "hours_of_operation": store["hours"] or "Missing",
                         "raw_address": (
                             f"{store['address1']}, {store['city']}"

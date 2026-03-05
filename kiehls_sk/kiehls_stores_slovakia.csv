@@ -1,0 +1,3 @@
+page_url,location_name,street_address,city,state,zip,country_code,store_number,phone,location_type,latitude,longitude,locator_domain,hours_of_operation,raw_address
+https://www.kiehls.sk/predajne?lat=48.1486&long=17.1077,Kiehl's Aupark,Einsteinova 3541/18,Bratislava,Slovensko,851 01,SK,Missing,+421 232 609 694,Missing,48.133028,17.107499,kiehls.sk,Missing,"Einsteinova 3541/18, Bratislava"
+https://www.kiehls.sk/predajne?lat=48.7167&long=21.25,Douglas Atrium Optima Košice,Moldavská cesta 32,Košice,Slovensko,040 11,SK,Missing,Missing,Missing,48.69687,21.237319,kiehls.sk,Missing,"Moldavská cesta 32, Košice"

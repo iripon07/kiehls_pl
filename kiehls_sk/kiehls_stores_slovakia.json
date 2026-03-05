@@ -1,0 +1,36 @@
+[
+    {
+        "page_url": "https://www.kiehls.sk/predajne?lat=48.1486&long=17.1077",
+        "location_name": "Kiehl's Aupark",
+        "street_address": "Einsteinova 3541/18",
+        "city": "Bratislava",
+        "state": "Slovensko",
+        "zip": "851 01",
+        "country_code": "SK",
+        "store_number": "Missing",
+        "phone": "+421 232 609 694",
+        "location_type": "Missing",
+        "latitude": "48.133028",
+        "longitude": "17.107499",
+        "locator_domain": "kiehls.sk",
+        "hours_of_operation": "Missing",
+        "raw_address": "Einsteinova 3541/18, Bratislava"
+    },
+    {
+        "page_url": "https://www.kiehls.sk/predajne?lat=48.7167&long=21.25",
+        "location_name": "Douglas Atrium Optima Košice",
+        "street_address": "Moldavská cesta 32",
+        "city": "Košice",
+        "state": "Slovensko",
+        "zip": "040 11",
+        "country_code": "SK",
+        "store_number": "Missing",
+        "phone": "Missing",
+        "location_type": "Missing",
+        "latitude": "48.69687",
+        "longitude": "21.237319",
+        "locator_domain": "kiehls.sk",
+        "hours_of_operation": "Missing",
+        "raw_address": "Moldavská cesta 32, Košice"
+    }
+]

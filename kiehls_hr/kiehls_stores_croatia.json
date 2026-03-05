@@ -1,6 +1,6 @@
 [
     {
-        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.815&long=15.9819",
+        "page_url": "https://www.kiehls.hr/pronadite-prodavaonicu?lat=45.815&long=15.9819",
         "location_name": "Kiehl's Centar Cvjetni",
         "street_address": "Kiehl's Centar Cvjetni",
         "city": "Zagreb",
@@ -12,12 +12,12 @@
         "location_type": "Missing",
         "latitude": "45.81226",
         "longitude": "15.97313",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.hr",
         "hours_of_operation": "Missing",
         "raw_address": "Kiehl's Centar Cvjetni, Zagreb"
     },
     {
-        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.815&long=15.9819",
+        "page_url": "https://www.kiehls.hr/pronadite-prodavaonicu?lat=45.815&long=15.9819",
         "location_name": "Kiehl's Arena Centar, Zagreb",
         "street_address": "Kiehl's Arena Centar",
         "city": "Zagreb",
@@ -29,12 +29,12 @@
         "location_type": "Missing",
         "latitude": "45.7705",
         "longitude": "15.9401",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.hr",
         "hours_of_operation": "Missing",
         "raw_address": "Kiehl's Arena Centar, Zagreb"
     },
     {
-        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.815&long=15.9819",
+        "page_url": "https://www.kiehls.hr/pronadite-prodavaonicu?lat=45.815&long=15.9819",
         "location_name": "Kiehl's City Center one West, Zagreb",
         "street_address": "Kiehl' City Center one West",
         "city": "Zagreb",
@@ -46,12 +46,12 @@
         "location_type": "Missing",
         "latitude": "45.799",
         "longitude": "15.8849",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.hr",
         "hours_of_operation": "Missing",
         "raw_address": "Kiehl' City Center one West, Zagreb"
     },
     {
-        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=43.51&long=16.44",
+        "page_url": "https://www.kiehls.hr/pronadite-prodavaonicu?lat=43.51&long=16.44",
         "location_name": "Kiehl's City Center One Split",
         "street_address": "Kiehl's City Center One Split",
         "city": "Split",
@@ -63,12 +63,12 @@
         "location_type": "Missing",
         "latitude": "43.5138",
         "longitude": "16.503",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.hr",
         "hours_of_operation": "Missing",
         "raw_address": "Kiehl's City Center One Split, Split"
     },
     {
-        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.3272&long=14.4422",
+        "page_url": "https://www.kiehls.hr/pronadite-prodavaonicu?lat=45.3272&long=14.4422",
         "location_name": "Kiehl's Tower Center",
         "street_address": "Pećine 81A",
         "city": "Rijeka",
@@ -80,7 +80,7 @@
         "location_type": "Missing",
         "latitude": "45.317363",
         "longitude": "14.469339",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.hr",
         "hours_of_operation": "Missing",
         "raw_address": "Pećine 81A, Rijeka"
     }

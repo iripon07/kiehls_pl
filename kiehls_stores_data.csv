@@ -1,0 +1,31 @@
+page_url,location_name,street_address,city,state,zip,country_code,store_number,phone,location_type,latitude,longitude,locator_domain,hours_of_operation,raw_address
+https://www.kiehls.pl/znajdz-sklep?lat=52.2297&long=21.0122,Kiehl's Złote Tarasy,Złota 59,Warszawa,Mazowieckie,00-120,PL,Missing,+48 510 998 357,Missing,52.230227,21.002677,kiehls.pl,"Pon - sob: 9:00 - 22:00
+niedz.: 9:00 - 21:00","Złota 59, Warszawa"
+https://www.kiehls.pl/znajdz-sklep?lat=52.2297&long=21.0122,Kiehl's Arkadia,Al. Jana Pawła II 82,Warszawa,Mazowieckie,00-175,PL,Missing,+48 22 351 95 67,Missing,52.257227,20.984565,kiehls.pl,"pon.-sob.: 10:00 - 22:00
+niedz.: 10:00 - 21:00","Al. Jana Pawła II 82, Warszawa"
+https://www.kiehls.pl/znajdz-sklep?lat=52.2297&long=21.0122,Kiehl's Galeria Mokotów,Wołoska 12,Warszawa,Mazowieckie,02-675,PL,Missing,+48 22 161 33 22,Missing,52.179859,21.004022,kiehls.pl,"pon.-sob.: 10:00 - 22:00
+niedz.: 10:00 - 21:00","Wołoska 12, Warszawa"
+https://www.kiehls.pl/znajdz-sklep?lat=50.0647&long=19.945,Kiehl's Galeria Krakowska,Pawia 5,Kraków,Małopolskie,31-154,PL,Missing,+48 510 998 356,Missing,50.067835,19.946466,kiehls.pl,"Pon - sob: 9:00 - 22:00
+niedz.: 10:00 - 21:00","Pawia 5, Kraków"
+https://www.kiehls.pl/znajdz-sklep?lat=50.0647&long=19.945,Kiehl's Bonarka,Kamieńskiego 11,Kraków,Małopolskie,30-644,PL,Missing,+48 510 998 358,Missing,50.147857,19.918051,kiehls.pl,"Pon - sob: 10:00 - 21:00
+niedz.: 10:00 - 21:00","Kamieńskiego 11, Kraków"
+https://www.kiehls.pl/znajdz-sklep?lat=51.1079&long=17.0385,Douglas Wroclavia,Sucha 1,Wrocław,Dolnośląskie,50-086,PL,Missing,Missing,Missing,51.097451,17.034024,kiehls.pl,Missing,"Sucha 1, Wrocław"
+https://www.kiehls.pl/znajdz-sklep?lat=54.352&long=18.6466,Douglas Forum Gdańsk,Targ Sienny 7,Gdańsk,Pomorskie,80-806,PL,Missing,Missing,Missing,54.350094,18.642208,kiehls.pl,Missing,"Targ Sienny 7, Gdańsk"
+https://www.kiehls.pl/znajdz-sklep?lat=53.4285&long=14.5528,Douglas Kaskada,Aleja Niepodległości 36,Szczecin,Zachodniopomorskie,70-404,PL,Missing,Missing,Missing,53.427555,14.551368,kiehls.pl,Missing,"Aleja Niepodległości 36, Szczecin"
+https://www.kiehls.sk/predajne?lat=48.1486&long=17.1077,Kiehl's Aupark,Einsteinova 3541/18,Bratislava,Slovensko,851 01,SK,Missing,+421 232 609 694,Missing,48.133028,17.107499,kiehls.sk,Missing,"Einsteinova 3541/18, Bratislava"
+https://www.kiehls.sk/predajne?lat=48.7167&long=21.25,Douglas Atrium Optima Košice,Moldavská cesta 32,Košice,Slovensko,040 11,SK,Missing,Missing,Missing,48.69687,21.237319,kiehls.sk,Missing,"Moldavská cesta 32, Košice"
+https://www.kiehls.hu/%C3%BCzletek?lat=47.4979&long=19.0402,Kiehl's WestEnd City Center,Váci út 3,Budapest,Missing,1062,HU,Missing,+3612360222,Missing,47.513977,19.059215,kiehls.hu,Missing,"Váci út 3, Budapest"
+https://www.kiehls.hu/%C3%BCzletek?lat=47.4979&long=19.0402,Kiehl's Allee Bevásárlóközpont,ZÁRVA,Budapest,Missing,1117,Missing,Missing,Missing,Missing,47.475255,19.049206,kiehls.hu,Missing,"ZÁRVA, Budapest"
+https://www.kiehls.hr/pronadite-prodavaonicu?lat=45.815&long=15.9819,Kiehl's Centar Cvjetni,Kiehl's Centar Cvjetni,Zagreb,Missing,10000,Missing,Missing,091 6312 081,Missing,45.81226,15.97313,kiehls.hr,Missing,"Kiehl's Centar Cvjetni, Zagreb"
+https://www.kiehls.hr/pronadite-prodavaonicu?lat=45.815&long=15.9819,"Kiehl's Arena Centar, Zagreb",Kiehl's Arena Centar,Zagreb,Grad Zagreb,10000,Missing,Missing,01 4952 100,Missing,45.7705,15.9401,kiehls.hr,Missing,"Kiehl's Arena Centar, Zagreb"
+https://www.kiehls.hr/pronadite-prodavaonicu?lat=45.815&long=15.9819,"Kiehl's City Center one West, Zagreb",Kiehl' City Center one West,Zagreb,Missing,10000,Missing,Missing,01 4952 124,Missing,45.799,15.8849,kiehls.hr,Missing,"Kiehl' City Center one West, Zagreb"
+https://www.kiehls.hr/pronadite-prodavaonicu?lat=43.51&long=16.44,Kiehl's City Center One Split,Kiehl's City Center One Split,Split,Missing,21000,Missing,Missing,021 585 469,Missing,43.5138,16.503,kiehls.hr,Missing,"Kiehl's City Center One Split, Split"
+https://www.kiehls.hr/pronadite-prodavaonicu?lat=45.3272&long=14.4422,Kiehl's Tower Center,Pećine 81A,Rijeka,Missing,51000,Missing,Missing,091 6311 093,Missing,45.317363,14.469339,kiehls.hr,Missing,"Pećine 81A, Rijeka"
+https://www.kiehls.cz/prodejny?lat=50.0875&long=14.4214,Kiehl's Palladium,Náměstí Republiky 1,Praha,Missing,110 00,CZ,Missing,+420 222 513 042,Missing,50.088928,14.429055,kiehls.cz,Missing,"Náměstí Republiky 1, Praha"
+https://www.kiehls.cz/prodejny?lat=50.0875&long=14.4214,Kiehl's OC Nový Smíchov,Plzeňská 8,Praha,Missing,150 00,CZ,Missing,+420 255 719 819,Missing,50.073165,14.402254,kiehls.cz,Missing,"Plzeňská 8, Praha"
+https://www.kiehls.cz/prodejny?lat=50.0875&long=14.4214,Kiehl's Chodov,Roztylská 2321/19,Praha,Česká republika,148 00,CZ,Missing,+420 272 075 486,Missing,50.031987,14.491246,kiehls.cz,Missing,"Roztylská 2321/19, Praha"
+https://www.kiehls.cz/prodejny?lat=49.1925&long=16.6085,Douglas Galerie Vaňkovka,Ve Vaňkovce 462/1,Brno,Česká republika,602 00,CZ,Missing,+420296333770,Missing,49.187801,16.614762,kiehls.cz,Missing,"Ve Vaňkovce 462/1, Brno"
+https://www.kiehls.cz/prodejny?lat=49.8356&long=18.2923,Douglas Avion Shopping Park,Rudná 114,Ostrava,Česká republika,700 30,CZ,Missing,Missing,Missing,49.84079,18.29088,kiehls.cz,Missing,"Rudná 114, Ostrava"
+https://www.kiehls.cz/prodejny?lat=49.7475&long=13.3776,"Douglas, OC Plzeň Plaza",Radčická 2,Plzeň,Česká republika,301 00,CZ,Missing,Missing,Missing,49.749737,13.369452,kiehls.cz,Missing,"Radčická 2, Plzeň"
+https://www.kiehls.bg/%D0%BF%D0%BE%D1%82%D1%8A%D1%80%D1%81%D0%B5%D1%82%D0%B5-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD?lat=42.6977&long=23.3219,Kiehl's Сердика център,Kiehl's Сердика център,Sofia,Missing,1505,Missing,Missing,Missing,Missing,42.691781,23.353176,kiehls.bg,Missing,"Kiehl's Сердика център, Sofia"
+https://www.kiehls.bg/%D0%BF%D0%BE%D1%82%D1%8A%D1%80%D1%81%D0%B5%D1%82%D0%B5-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD?lat=42.6977&long=23.3219,Kiehl's Парадайс център,Kiehl's Парадайс център,Missing,Missing,Missing,BG,Missing,Missing,Missing,42.657,23.314,kiehls.bg,Missing,"Kiehl's Парадайс център, "

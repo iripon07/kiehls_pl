@@ -1,6 +1,6 @@
 [
     {
-        "page_url": "https://www.kiehls.cz/znajdz-sklep?lat=50.0875&long=14.4214",
+        "page_url": "https://www.kiehls.cz/prodejny?lat=50.0875&long=14.4214",
         "location_name": "Kiehl's Palladium",
         "street_address": "Náměstí Republiky 1",
         "city": "Praha",
@@ -12,12 +12,12 @@
         "location_type": "Missing",
         "latitude": "50.088928",
         "longitude": "14.429055",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.cz",
         "hours_of_operation": "Missing",
         "raw_address": "Náměstí Republiky 1, Praha"
     },
     {
-        "page_url": "https://www.kiehls.cz/znajdz-sklep?lat=50.0875&long=14.4214",
+        "page_url": "https://www.kiehls.cz/prodejny?lat=50.0875&long=14.4214",
         "location_name": "Kiehl's OC Nový Smíchov",
         "street_address": "Plzeňská 8",
         "city": "Praha",
@@ -29,12 +29,12 @@
         "location_type": "Missing",
         "latitude": "50.073165",
         "longitude": "14.402254",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.cz",
         "hours_of_operation": "Missing",
         "raw_address": "Plzeňská 8, Praha"
     },
     {
-        "page_url": "https://www.kiehls.cz/znajdz-sklep?lat=50.0875&long=14.4214",
+        "page_url": "https://www.kiehls.cz/prodejny?lat=50.0875&long=14.4214",
         "location_name": "Kiehl's Chodov",
         "street_address": "Roztylská 2321/19",
         "city": "Praha",
@@ -46,12 +46,12 @@
         "location_type": "Missing",
         "latitude": "50.031987",
         "longitude": "14.491246",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.cz",
         "hours_of_operation": "Missing",
         "raw_address": "Roztylská 2321/19, Praha"
     },
     {
-        "page_url": "https://www.kiehls.cz/znajdz-sklep?lat=49.1925&long=16.6085",
+        "page_url": "https://www.kiehls.cz/prodejny?lat=49.1925&long=16.6085",
         "location_name": "Douglas Galerie Vaňkovka",
         "street_address": "Ve Vaňkovce 462/1",
         "city": "Brno",
@@ -63,12 +63,12 @@
         "location_type": "Missing",
         "latitude": "49.187801",
         "longitude": "16.614762",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.cz",
         "hours_of_operation": "Missing",
         "raw_address": "Ve Vaňkovce 462/1, Brno"
     },
     {
-        "page_url": "https://www.kiehls.cz/znajdz-sklep?lat=49.8356&long=18.2923",
+        "page_url": "https://www.kiehls.cz/prodejny?lat=49.8356&long=18.2923",
         "location_name": "Douglas Avion Shopping Park",
         "street_address": "Rudná 114",
         "city": "Ostrava",
@@ -80,12 +80,12 @@
         "location_type": "Missing",
         "latitude": "49.84079",
         "longitude": "18.29088",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.cz",
         "hours_of_operation": "Missing",
         "raw_address": "Rudná 114, Ostrava"
     },
     {
-        "page_url": "https://www.kiehls.cz/znajdz-sklep?lat=49.7475&long=13.3776",
+        "page_url": "https://www.kiehls.cz/prodejny?lat=49.7475&long=13.3776",
         "location_name": "Douglas, OC Plzeň Plaza",
         "street_address": "Radčická 2",
         "city": "Plzeň",
@@ -97,7 +97,7 @@
         "location_type": "Missing",
         "latitude": "49.749737",
         "longitude": "13.369452",
-        "locator_domain": "kiehls.pl",
+        "locator_domain": "kiehls.cz",
         "hours_of_operation": "Missing",
         "raw_address": "Radčická 2, Plzeň"
     }

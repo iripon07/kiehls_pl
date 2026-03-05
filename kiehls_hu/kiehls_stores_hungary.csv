@@ -1,0 +1,3 @@
+page_url,location_name,street_address,city,state,zip,country_code,store_number,phone,location_type,latitude,longitude,locator_domain,hours_of_operation,raw_address
+https://www.kiehls.hu/%C3%BCzletek?lat=47.4979&long=19.0402,Kiehl's WestEnd City Center,Váci út 3,Budapest,Missing,1062,HU,Missing,+3612360222,Missing,47.513977,19.059215,kiehls.hu,Missing,"Váci út 3, Budapest"
+https://www.kiehls.hu/%C3%BCzletek?lat=47.4979&long=19.0402,Kiehl's Allee Bevásárlóközpont,ZÁRVA,Budapest,Missing,1117,Missing,Missing,Missing,Missing,47.475255,19.049206,kiehls.hu,Missing,"ZÁRVA, Budapest"
