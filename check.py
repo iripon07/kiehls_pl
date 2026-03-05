@@ -4,23 +4,23 @@ import time
 import sys
 
 
-item = {
-        "page_url": "Missing",
-        "location_name": "Missing",
-        "street_address": "Missing",
-        "city": "Missing",
-        "state": "Missing",
-        "zip": "Missing",
-        "country_code": "Missing",
-        "store_number": "Missing",
-        "phone": "Missing",
-        "location_type": "Missing",
-        "latitude": "Missing",
-        "longitude": "Missing",
-        "locator_domain": "kiehls.pl",
-        "hours_of_operation": "Missing",
-        "raw_address": "Missing"
-}
+# item = {
+#         "page_url": "Missing",
+#         "location_name": "Missing",
+#         "street_address": "Missing",
+#         "city": "Missing",
+#         "state": "Missing",
+#         "zip": "Missing",
+#         "country_code": "Missing",
+#         "store_number": "Missing",
+#         "phone": "Missing",
+#         "location_type": "Missing",
+#         "latitude": "Missing",
+#         "longitude": "Missing",
+#         "locator_domain": "kiehls.pl",
+#         "hours_of_operation": "Missing",
+#         "raw_address": "Missing"
+# }
 
 def get_stores_reliably():
     options = uc.ChromeOptions()
@@ -66,18 +66,18 @@ def get_stores_reliably():
                     "location_name": store("name") or "Missing",
                     "street_address": store("address1") or "Missing",
                     "city": store("city") or "Missing",
-                    "state": raw_s.get("stateCode") or "Missing",
-            "zip": raw_s.get("postalCode") or "Missing",
-            "country_code": raw_s.get("countryCode") or "Missing",
-            "store_number": str(sid),
-            "phone": raw_s.get("phone") or "Missing",
-            "location_type": "Missing",
-            "latitude": str(raw_s.get("latitude")) if raw_s.get("latitude") else "Missing",
-            "longitude": str(raw_s.get("longitude")) if raw_s.get("longitude") else "Missing",
-            "locator_domain": "kiehls.pl",
-            "hours_of_operation": raw_s.get("hours") or "Missing",
-            "raw_address": f"{raw_s.get('address1')}, {raw_s.get('city')}" if raw_s.get("address1") else "Missing",
-            "status_active_inactive": "ACTIVE" # Matches your law firm style
+                    "state": store("stateCode") or "Missing",
+                    "zip": store("postalCode") or "Missing",
+                    "country_code": store("countryCode") or "Missing",
+                    # "store_number": str(sid),
+                    "store_number": "Missing",
+                    "phone": store("phone") or "Missing",
+                    "location_type": "Missing",
+                    "latitude": str(store("latitude")) if store("latitude") else "Missing",
+                    "longitude": str(store("longitude")) if store("longitude") else "Missing",
+                    "locator_domain": "kiehls.pl",
+                    "hours_of_operation": store("hours") or "Missing",
+                    "raw_address": f"{store('address1')}, {store('city')}" if store("address1") else "Missing",
         }
                 name = store["name"]
                 city = store["city"]
