@@ -31,20 +31,20 @@ def get_stores_reliably():
         # Poland Cities Longitude and Latitude
         poland_cities = [
             {"lat": 52.2297, "lon": 21.0122},
-            # {"lat": 50.0647, "lon": 19.9450},
-            # {"lat": 51.7592, "lon": 19.4560},
-            # {"lat": 51.1079, "lon": 17.0385},
-            # {"lat": 52.4064, "lon": 16.9252},
-            # {"lat": 54.3520, "lon": 18.6466},
-            # {"lat": 53.4285, "lon": 14.5528},
-            # {"lat": 53.1235, "lon": 18.0084},
-            # {"lat": 51.2465, "lon": 22.5684},
-            # {"lat": 50.2649, "lon": 19.0238},
-            # {"lat": 53.1325, "lon": 23.1688},
-            # {"lat": 54.5189, "lon": 18.5305},
-            # {"lat": 50.8118, "lon": 19.1204},
-            # {"lat": 51.4026, "lon": 21.1471},
-            # {"lat": 53.0138, "lon": 18.5984}
+            {"lat": 50.0647, "lon": 19.9450},
+            {"lat": 51.7592, "lon": 19.4560},
+            {"lat": 51.1079, "lon": 17.0385},
+            {"lat": 52.4064, "lon": 16.9252},
+            {"lat": 54.3520, "lon": 18.6466},
+            {"lat": 53.4285, "lon": 14.5528},
+            {"lat": 53.1235, "lon": 18.0084},
+            {"lat": 51.2465, "lon": 22.5684},
+            {"lat": 50.2649, "lon": 19.0238},
+            {"lat": 53.1325, "lon": 23.1688},
+            {"lat": 54.5189, "lon": 18.5305},
+            {"lat": 50.8118, "lon": 19.1204},
+            {"lat": 51.4026, "lon": 21.1471},
+            {"lat": 53.0138, "lon": 18.5984}
             ]
         
         for poland_city in poland_cities:
@@ -63,29 +63,31 @@ def get_stores_reliably():
             for store in stores:
                 data = {
                     "page_url": "https://www.kiehls.pl/sklepy",
-                    "location_name": store("name") or "Missing",
-                    "street_address": store("address1") or "Missing",
-                    "city": store("city") or "Missing",
-                    "state": store("stateCode") or "Missing",
-                    "zip": store("postalCode") or "Missing",
-                    "country_code": store("countryCode") or "Missing",
-                    # "store_number": str(sid),
+                    "location_name": store["name"] or "Missing",
+                    "street_address": store["address1"] or "Missing",
+                    "city": store["city"] or "Missing",
+                    "state": store["stateCode"] or "Missing",
+                    "zip": store["postalCode"] or "Missing",
+                    "country_code": store["countryCode"] or "Missing",
+                    # "store_number": str[sid],
                     "store_number": "Missing",
-                    "phone": store("phone") or "Missing",
+                    "phone": store["phone"] or "Missing",
                     "location_type": "Missing",
-                    "latitude": str(store("latitude")) if store("latitude") else "Missing",
-                    "longitude": str(store("longitude")) if store("longitude") else "Missing",
+                    "latitude": str(store["latitude"]) if store["latitude"] else "Missing",
+                    "longitude": str(store["longitude"]) if store["longitude"] else "Missing",
                     "locator_domain": "kiehls.pl",
-                    "hours_of_operation": store("hours") or "Missing",
-                    "raw_address": f"{store('address1')}, {store('city')}" if store("address1") else "Missing",
-        }
-                name = store["name"]
-                city = store["city"]
-                latitude = store["latitude"]
-                print("Name", name)
-                print("City", city)
-                print("Latitude", latitude)
-                print("-" * 30)
+                    "hours_of_operation": store["hours"] or "Missing",
+                    "raw_address": f"{store['address1']}, {store['city']}" if store["address1"] else "Missing",
+                }
+
+                print("Store details", data)
+                # name = store["name"]
+                # city = store["city"]
+                # latitude = store["latitude"]
+                # print("Name", name)
+                # print("City", city)
+                # print("Latitude", latitude)
+                # print("-" * 30)
 
                 
             # for index, store in enumerate(stores, 1):
