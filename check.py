@@ -11,6 +11,29 @@ def get_stores_reliably():
     driver = uc.Chrome(options=options, version_main=145)
     
     try:
+
+        # Poland major cities longitude and latitude dictionary
+        poland_cities = {
+    "Warsaw": {"lat": 52.2297, "lon": 21.0122},
+    "Kraków": {"lat": 50.0647, "lon": 19.9450},
+    "Łódź": {"lat": 51.7592, "lon": 19.4560},
+    "Wrocław": {"lat": 51.1079, "lon": 17.0385},
+    "Poznań": {"lat": 52.4064, "lon": 16.9252},
+    "Gdańsk": {"lat": 54.3520, "lon": 18.6466},
+    "Szczecin": {"lat": 53.4285, "lon": 14.5528},
+    "Bydgoszcz": {"lat": 53.1235, "lon": 18.0084},
+    "Lublin": {"lat": 51.2465, "lon": 22.5684},
+    "Katowice": {"lat": 50.2649, "lon": 19.0238},
+    "Białystok": {"lat": 53.1325, "lon": 23.1688},
+    "Gdynia": {"lat": 54.5189, "lon": 18.5305},
+    "Częstochowa": {"lat": 50.8118, "lon": 19.1204},
+    "Radom": {"lat": 51.4026, "lon": 21.1471},
+    "Toruń": {"lat": 53.0138, "lon": 18.5984}
+}
+
+# Example usage:
+# print(poland_cities["Warsaw"]["lat"])
+
         # STEP 1: Visit the main page to get "Valid Session Cookies"
         print("🔗 Step 1: Visiting homepage to get cookies...")
         driver.get("https://www.kiehls.pl/sklepy")
