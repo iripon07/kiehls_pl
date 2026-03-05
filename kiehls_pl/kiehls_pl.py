@@ -43,7 +43,7 @@ def get_kiehls_stores():
         for poland_city in poland_cities:
             poland_city_url = f"https://www.kiehls.pl/on/demandware.store/Sites-kiehls-emea-east-ng-Site/pl_PL/Stores-Search?lat={poland_city['lat']}&long={poland_city['lon']}&radius=10000&ajax=true"
             #  print("City", poland_city_url)
-            city_url = f"https://www.kiehls.pl/znajdz-sklep?lat={poland_city['lat']}&lng={poland_city['lon']}"
+            city_url = f"https://www.kiehls.pl/znajdz-sklep?lat={poland_city['lat']}&long={poland_city['lon']}"
             driver.get(poland_city_url)
             time.sleep(30)
             #  print(driver, "ddd")

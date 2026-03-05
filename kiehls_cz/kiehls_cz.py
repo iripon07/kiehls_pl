@@ -43,11 +43,9 @@ def get_kiehls_stores():
             ]
         
         for czech_city in czech_cities:
-            czech_city_url = f"https://www.kiehls.cz/on/demandware.store/Sites-kiehls-emea-east-ng-Site/cs_CZ/Stores-Search?lat={czech_city['lat']}&long={czech_city['lon']}&radius=10000&ajax=true"
-            czech_city_url = f"https://www.kiehls.cz/on/demandware.store/Sites-kiehls-emea-east-ng-Site/cs_CZ/Stores-Search?lat=49.1950602&long=16.6068371&ajax=true"
-            # czech_city_url = f"https://www.kiehls.hr/on/demandware.store/Sites-kiehls-emea-east-ng-Site/hr_HR/Stores-Search?lat=45.2741107&long=14.5688542&radius=10000&ajax=true"
-            #  print("City", czech_city_url)
-            city_url = f"https://www.kiehls.cz/znajdz-sklep?lat={czech_city['lat']}&lng={czech_city['lon']}"
+            czech_city_url = f"https://www.kiehls.cz/on/demandware.store/Sites-kiehls-emea-east-ng-Site/cs_CZ/Stores-Search?lat={czech_city['lat']}&long={czech_city['lng']}&radius=10000&ajax=true"
+            # czech_city_url = f"https://www.kiehls.cz/on/demandware.store/Sites-kiehls-emea-east-ng-Site/cs_CZ/Stores-Search?lat=49.1950602&long=16.6068371&ajax=true"
+            city_url = f"https://www.kiehls.cz/znajdz-sklep?lat={czech_city['lat']}&long={czech_city['lng']}"
             driver.get(czech_city_url)
             time.sleep(30)
             #  print(driver, "ddd")

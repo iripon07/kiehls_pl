@@ -44,7 +44,7 @@ def get_kiehls_stores():
             croatia_city_url = f"https://www.kiehls.hr/on/demandware.store/Sites-kiehls-emea-east-ng-Site/hr_HR/Stores-Search?lat={croatia_city['lat']}&long={croatia_city['lon']}&radius=10000&ajax=true"
             # croatia_city_url = f"https://www.kiehls.hr/on/demandware.store/Sites-kiehls-emea-east-ng-Site/hr_HR/Stores-Search?lat=45.2741107&long=14.5688542&radius=10000&ajax=true"
             #  print("City", croatia_city_url)
-            city_url = f"https://www.kiehls.hr/znajdz-sklep?lat={croatia_city['lat']}&lng={croatia_city['lon']}"
+            city_url = f"https://www.kiehls.hr/znajdz-sklep?lat={croatia_city['lat']}&long={croatia_city['lon']}"
             driver.get(croatia_city_url)
             time.sleep(30)
             #  print(driver, "ddd")
