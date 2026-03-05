@@ -10,8 +10,8 @@ def get_kiehls_stores():
     driver = uc.Chrome(options=options, version_main=145)
 
     # JSON AND CSV FILE 
-    json_file = "kiehls_stores_poland.json"
-    csv_file = "kiehls_stores_poland.csv"
+    json_file = "kiehls_stores_croatia.json"
+    csv_file = "kiehls_stores_croatia.csv"
 
     # CSV Header
     fieldnames = [
@@ -31,20 +31,21 @@ def get_kiehls_stores():
     
     try:
 
-        # Poland Cities Longitude and Latitude
-        poland_cities = [
-            {"lat": 52.2297, "lon": 21.0122},
-            {"lat": 50.0647, "lon": 19.9450},
-            {"lat": 51.1079, "lon": 17.0385},
-            {"lat": 54.3520, "lon": 18.6466},
-            {"lat": 53.4285, "lon": 14.5528},
+        # croatia Cities Longitude and Latitude
+        croatia_cities = [
+              {"lat": 45.8150, "lon": 15.9819},
+              {"lat": 43.5100, "lon": 16.4400},
+              {"lat": 45.3272, "lon": 14.4422},
+              {"lat": 45.5556, "lon": 18.6956},
+              {"lat": 42.6500, "lon": 18.0944}
             ]
         
-        for poland_city in poland_cities:
-            poland_city_url = f"https://www.kiehls.pl/on/demandware.store/Sites-kiehls-emea-east-ng-Site/pl_PL/Stores-Search?lat={poland_city['lat']}&long={poland_city['lon']}&radius=10000&ajax=true"
-            #  print("City", poland_city_url)
-            city_url = f"https://www.kiehls.pl/znajdz-sklep?lat={poland_city['lat']}&lng={poland_city['lon']}"
-            driver.get(poland_city_url)
+        for croatia_city in croatia_cities:
+            croatia_city_url = f"https://www.kiehls.hr/on/demandware.store/Sites-kiehls-emea-east-ng-Site/hr_HR/Stores-Search?lat={croatia_city['lat']}&long={croatia_city['lon']}&radius=10000&ajax=true"
+            # croatia_city_url = f"https://www.kiehls.hr/on/demandware.store/Sites-kiehls-emea-east-ng-Site/hr_HR/Stores-Search?lat=45.2741107&long=14.5688542&radius=10000&ajax=true"
+            #  print("City", croatia_city_url)
+            city_url = f"https://www.kiehls.hr/znajdz-sklep?lat={croatia_city['lat']}&lng={croatia_city['lon']}"
+            driver.get(croatia_city_url)
             time.sleep(30)
             #  print(driver, "ddd")
             raw_data = driver.find_element("tag name", "body").text
