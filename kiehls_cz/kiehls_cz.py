@@ -10,8 +10,8 @@ def get_kiehls_stores():
     driver = uc.Chrome(options=options, version_main=145)
 
     # JSON AND CSV FILE 
-    json_file = "kiehls_hr/kiehls_stores_croatia.json"
-    csv_file = "kiehls_hr/kiehls_stores_croatia.csv"
+    json_file = "kiehls_cz/kiehls_stores_czech.json"
+    csv_file = "kiehls_cz/kiehls_stores_czech.csv"
 
     # CSV Header
     fieldnames = [
@@ -31,21 +31,24 @@ def get_kiehls_stores():
     
     try:
 
-        # croatia Cities Longitude and Latitude
-        croatia_cities = [
-              {"lat": 45.8150, "lon": 15.9819},
-              {"lat": 43.5100, "lon": 16.4400},
-              {"lat": 45.3272, "lon": 14.4422},
-              {"lat": 45.5556, "lon": 18.6956},
-              {"lat": 42.6500, "lon": 18.0944}
+        #Czech Republic Cities Longitude and Latitude
+        czech_cities = [
+            {"lat": 50.0875, "lng": 14.4214},
+            {"lat": 49.1925, "lng": 16.6085},
+            {"lat": 49.8356, "lng": 18.2923},
+            {"lat": 49.7475, "lng": 13.3776},
+            {"lat": 50.7670, "lng": 15.0561},
+            {"lat": 49.5938, "lng": 17.2508},
+            {"lat": 48.9747, "lng": 14.4746}
             ]
         
-        for croatia_city in croatia_cities:
-            croatia_city_url = f"https://www.kiehls.hr/on/demandware.store/Sites-kiehls-emea-east-ng-Site/hr_HR/Stores-Search?lat={croatia_city['lat']}&long={croatia_city['lon']}&radius=10000&ajax=true"
-            # croatia_city_url = f"https://www.kiehls.hr/on/demandware.store/Sites-kiehls-emea-east-ng-Site/hr_HR/Stores-Search?lat=45.2741107&long=14.5688542&radius=10000&ajax=true"
-            #  print("City", croatia_city_url)
-            city_url = f"https://www.kiehls.hr/znajdz-sklep?lat={croatia_city['lat']}&lng={croatia_city['lon']}"
-            driver.get(croatia_city_url)
+        for czech_city in czech_cities:
+            czech_city_url = f"https://www.kiehls.cz/on/demandware.store/Sites-kiehls-emea-east-ng-Site/cs_CZ/Stores-Search?lat={czech_city['lat']}&long={czech_city['lon']}&radius=10000&ajax=true"
+            czech_city_url = f"https://www.kiehls.cz/on/demandware.store/Sites-kiehls-emea-east-ng-Site/cs_CZ/Stores-Search?lat=49.1950602&long=16.6068371&ajax=true"
+            # czech_city_url = f"https://www.kiehls.hr/on/demandware.store/Sites-kiehls-emea-east-ng-Site/hr_HR/Stores-Search?lat=45.2741107&long=14.5688542&radius=10000&ajax=true"
+            #  print("City", czech_city_url)
+            city_url = f"https://www.kiehls.cz/znajdz-sklep?lat={czech_city['lat']}&lng={czech_city['lon']}"
+            driver.get(czech_city_url)
             time.sleep(30)
             #  print(driver, "ddd")
             raw_data = driver.find_element("tag name", "body").text
