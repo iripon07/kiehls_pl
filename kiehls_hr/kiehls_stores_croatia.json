@@ -1,6 +1,6 @@
 [
     {
-        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.815&lng=15.9819",
+        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.815&long=15.9819",
         "location_name": "Kiehl's Centar Cvjetni",
         "street_address": "Kiehl's Centar Cvjetni",
         "city": "Zagreb",
@@ -17,7 +17,7 @@
         "raw_address": "Kiehl's Centar Cvjetni, Zagreb"
     },
     {
-        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.815&lng=15.9819",
+        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.815&long=15.9819",
         "location_name": "Kiehl's Arena Centar, Zagreb",
         "street_address": "Kiehl's Arena Centar",
         "city": "Zagreb",
@@ -34,7 +34,7 @@
         "raw_address": "Kiehl's Arena Centar, Zagreb"
     },
     {
-        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.815&lng=15.9819",
+        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.815&long=15.9819",
         "location_name": "Kiehl's City Center one West, Zagreb",
         "street_address": "Kiehl' City Center one West",
         "city": "Zagreb",
@@ -51,7 +51,7 @@
         "raw_address": "Kiehl' City Center one West, Zagreb"
     },
     {
-        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=43.51&lng=16.44",
+        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=43.51&long=16.44",
         "location_name": "Kiehl's City Center One Split",
         "street_address": "Kiehl's City Center One Split",
         "city": "Split",
@@ -68,7 +68,7 @@
         "raw_address": "Kiehl's City Center One Split, Split"
     },
     {
-        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.3272&lng=14.4422",
+        "page_url": "https://www.kiehls.hr/znajdz-sklep?lat=45.3272&long=14.4422",
         "location_name": "Kiehl's Tower Center",
         "street_address": "Pećine 81A",
         "city": "Rijeka",

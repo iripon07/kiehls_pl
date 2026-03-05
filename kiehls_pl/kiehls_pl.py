@@ -10,8 +10,8 @@ def get_kiehls_stores():
     driver = uc.Chrome(options=options, version_main=145)
 
     # JSON AND CSV FILE 
-    json_file = "kiehls_stores_poland.json"
-    csv_file = "kiehls_stores_poland.csv"
+    json_file = "kiehls_pl/kiehls_stores_poland.json"
+    csv_file = "kiehls_pl/kiehls_stores_poland.csv"
 
     # CSV Header
     fieldnames = [

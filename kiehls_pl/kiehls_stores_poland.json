@@ -1,6 +1,6 @@
 [
     {
-        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=52.2297&lng=21.0122",
+        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=52.2297&long=21.0122",
         "location_name": "Kiehl's Złote Tarasy",
         "street_address": "Złota 59",
         "city": "Warszawa",
@@ -17,7 +17,7 @@
         "raw_address": "Złota 59, Warszawa"
     },
     {
-        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=52.2297&lng=21.0122",
+        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=52.2297&long=21.0122",
         "location_name": "Kiehl's Arkadia",
         "street_address": "Al. Jana Pawła II 82",
         "city": "Warszawa",
@@ -34,7 +34,7 @@
         "raw_address": "Al. Jana Pawła II 82, Warszawa"
     },
     {
-        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=52.2297&lng=21.0122",
+        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=52.2297&long=21.0122",
         "location_name": "Kiehl's Galeria Mokotów",
         "street_address": "Wołoska 12",
         "city": "Warszawa",
@@ -51,7 +51,7 @@
         "raw_address": "Wołoska 12, Warszawa"
     },
     {
-        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=50.0647&lng=19.945",
+        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=50.0647&long=19.945",
         "location_name": "Kiehl's Galeria Krakowska",
         "street_address": "Pawia 5",
         "city": "Kraków",
@@ -68,7 +68,7 @@
         "raw_address": "Pawia 5, Kraków"
     },
     {
-        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=50.0647&lng=19.945",
+        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=50.0647&long=19.945",
         "location_name": "Kiehl's Bonarka",
         "street_address": "Kamieńskiego 11",
         "city": "Kraków",
@@ -85,7 +85,7 @@
         "raw_address": "Kamieńskiego 11, Kraków"
     },
     {
-        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=51.1079&lng=17.0385",
+        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=51.1079&long=17.0385",
         "location_name": "Douglas Wroclavia",
         "street_address": "Sucha 1",
         "city": "Wrocław",
@@ -102,7 +102,7 @@
         "raw_address": "Sucha 1, Wrocław"
     },
     {
-        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=54.352&lng=18.6466",
+        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=54.352&long=18.6466",
         "location_name": "Douglas Forum Gdańsk",
         "street_address": "Targ Sienny 7",
         "city": "Gdańsk",
@@ -119,7 +119,7 @@
         "raw_address": "Targ Sienny 7, Gdańsk"
     },
     {
-        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=53.4285&lng=14.5528",
+        "page_url": "https://www.kiehls.pl/znajdz-sklep?lat=53.4285&long=14.5528",
         "location_name": "Douglas Kaskada",
         "street_address": "Aleja Niepodległości 36",
         "city": "Szczecin",

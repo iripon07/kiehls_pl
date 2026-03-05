@@ -1,1 +1,7 @@
 page_url,location_name,street_address,city,state,zip,country_code,store_number,phone,location_type,latitude,longitude,locator_domain,hours_of_operation,raw_address
+https://www.kiehls.cz/znajdz-sklep?lat=50.0875&long=14.4214,Kiehl's Palladium,Náměstí Republiky 1,Praha,Missing,110 00,CZ,Missing,+420 222 513 042,Missing,50.088928,14.429055,kiehls.pl,Missing,"Náměstí Republiky 1, Praha"
+https://www.kiehls.cz/znajdz-sklep?lat=50.0875&long=14.4214,Kiehl's OC Nový Smíchov,Plzeňská 8,Praha,Missing,150 00,CZ,Missing,+420 255 719 819,Missing,50.073165,14.402254,kiehls.pl,Missing,"Plzeňská 8, Praha"
+https://www.kiehls.cz/znajdz-sklep?lat=50.0875&long=14.4214,Kiehl's Chodov,Roztylská 2321/19,Praha,Česká republika,148 00,CZ,Missing,+420 272 075 486,Missing,50.031987,14.491246,kiehls.pl,Missing,"Roztylská 2321/19, Praha"
+https://www.kiehls.cz/znajdz-sklep?lat=49.1925&long=16.6085,Douglas Galerie Vaňkovka,Ve Vaňkovce 462/1,Brno,Česká republika,602 00,CZ,Missing,+420296333770,Missing,49.187801,16.614762,kiehls.pl,Missing,"Ve Vaňkovce 462/1, Brno"
+https://www.kiehls.cz/znajdz-sklep?lat=49.8356&long=18.2923,Douglas Avion Shopping Park,Rudná 114,Ostrava,Česká republika,700 30,CZ,Missing,Missing,Missing,49.84079,18.29088,kiehls.pl,Missing,"Rudná 114, Ostrava"
+https://www.kiehls.cz/znajdz-sklep?lat=49.7475&long=13.3776,"Douglas, OC Plzeň Plaza",Radčická 2,Plzeň,Česká republika,301 00,CZ,Missing,Missing,Missing,49.749737,13.369452,kiehls.pl,Missing,"Radčická 2, Plzeň"
